@@ -35,6 +35,12 @@ Each section below corresponds to a property on an `field` object. Where a prope
 defined by the spec, it is intended to add semantics that were not specified previously. Otherwise,
 they should be considered new properties.
 
+### description
+
+This is a human-friendly description of the field. This is longer than the `title`, and can be
+used to elaborate more on acceptable inputs. In clients, this text can be displayed right alongside
+the field, or perhaps in a tooltip.
+
 ### type
 
 When a field uses the type `select`, it can be treated like an HTML `<select>` box. The following
